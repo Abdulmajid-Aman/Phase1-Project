@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccessPoint</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+ <div id="main-container">
+             <!-- Head section -->
+    <header id="header">
+        <h2>Welcome to AccessPoint</h2>
+        <p>This is a where you can talk and interact with your friends. Don't let that unfinished story die like that, sign up or log back in and finish that lovely story of yours. Join our amazing community and meet new people.</p>
+    </header>
+      <!-- Main section -->
+      <main>
+            <div id="border-container">
+                <div id="sign-container" style="display: block;">
+                <h4>SIGN UP</h4>
+                <form id="sign-up">
+                    <label for="Email">Email</label><br>
+                    <input 
+                            type="email"
+                            required 
+                            placeholder="123@example.com"
+                            class="email"><br>
+                    <label  for="Password">Password</label><br>
+                    <input 
+                            type="password"
+                            required
+                            placeholder="password"
+                            class="password"><br>
+                    <label  for="username">Username</label><br>
+                    <input  
+                            type="text"
+                            required
+                            placeholder="123_example"
+                            class="username"><br>
+                    <input  type="submit"
+                            value="SIGN UP"
+                            class="submit">
+                </form>
+                <p>Already a user? <a href="#login" id="log">Log in</a></p>
+            </div>
+            <div id="login" style="display: none;">
+                <h4>LOGIN</h4>
+                <form id="log-in">
+                    <label for="username">Username</label><br>
+                    <input  
+                           type="text"
+                           required
+                           placeholder="Enter your username"
+                           id="username"><br>
+                    <label for="password">Password</label><br>
+                    <input 
+                           type="password"
+                           required
+                           placeholder="Enter your password"
+                           id="password"><br>
+                    <input type="submit"
+                           value="LOGIN"
+                           id="submit">
+                </form>
+                <p>Need an account? <a href="#sign-up" id="sign">Sign up</a></p>
+            </div>
+            </div>
+             <!-- Landing page for existing users -->
+              <div id="existing-users" style="display: none;">
+            
+              </div>
+        </div>
+     </main>
+     <script src="./JavaScript/java.js"></script>
+</body>
+</html>
+
