@@ -1,6 +1,6 @@
 // API URL
 
-const apiUrl = 'https://users-backend-six.vercel.app/users';
+const apiUrl = 'https://user-backend-ten.vercel.app/users';
 
 // UTILITY FUNCTIONS
 function select(id) {
