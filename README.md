@@ -11,7 +11,6 @@ This project is a simple web-based application that allows users to sign up, log
 3. **Profile View:** Logged-in users can view their profile information.
 4. **Edit Profile:** Users can edit their profile details.
 5. **Delete Account:** Users can delete their account.
-6. **Interactive UI:** The app features a dynamic user interface with various interactive elements.
 
 ### Technologies Used
 1. Frontend: HTML, CSS, JavaScript
