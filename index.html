@@ -38,11 +38,26 @@
                             placeholder="123_example"
                             class="username"><br>
                     <input  type="submit"
-                            value="SIGN UP"
+                            value="Continue"
                             class="submit">
                 </form>
                 <p>Already a user? <a href="#login" id="log">Log in</a></p>
             </div>
+             <!-- Additional Details Form -->
+            <div id="finish" style="display: none;">
+              <h2>Complete Your Profile</h2>
+              <form id="finish-signup">
+                <input type="text" id="full-name" placeholder="Full Name" required>
+                <input type="text" id="post-1" placeholder="Post 1 URL" required>
+                <input type="text" id="post-2" placeholder="Post 2 URL"required>
+                <input type="text" id="post-3" placeholder="Post 3 URL" required>
+                <input type="text" id="follow" placeholder="Followers Count" required>
+                <input type="text" id="followed" placeholder="Following Count" required>
+                <input type="text" id="Bio-stuff" placeholder="Bio" required>
+                <input type="text" required placeholder="Your profile picture" id="picture">
+                <button type="submit">Finish Signup</button>
+              </form>
+  </div>
             <div id="login" style="display: none;">
                 <h4>LOGIN</h4>
                 <form id="log-in">
@@ -67,8 +82,28 @@
             </div>
              <!-- Landing page for existing users -->
               <div id="existing-users" style="display: none;">
-            
-              </div>
+                 
+              </div
+            </div>
+            <!-- Editing section -->
+            <div id="edit-info" style="display: none;">
+              <h4>EDIT PROFILE</h4>
+              <form id="editing-profile"">
+              <label for="name">Name</label><br>
+              <input type="text" placeholder="Enter new name" id="new-name"><br>
+              <label for="username">Username</label><br>
+              <input type="text" id="userrname" placeholder="Enter new username"><br>
+              <label for="Bio">Bio</label><br>
+              <textarea name="bio" id="textarea" cols="35" rows="10" placeholder="Enter your new Bio"></textarea><br>
+              <label for="email">Email</label><br>
+              <input type="text" id="new-email" placeholder="Enter your new Email"><br>
+              <label for="password">Password</label><br>
+              <input type="password" id="new-password" placeholder="Enter your new password"><br>
+              <label for="profile-pic">Profile Picture</label><br>
+              <input type="text" required placeholder="Profile picture" id="new-profile"><br>
+              <input type="submit" value="Submit Changes" id="submit-changes">
+            </form>
+            </div>
         </div>
      </main>
      <script src="./JavaScript/java.js"></script>
