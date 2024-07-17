@@ -169,24 +169,6 @@
         "2": "https://images.unsplash.com/photo-1721073686084-c06ae051872a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D",
         "3": "https://plus.unsplash.com/premium_photo-1720798650953-1bb37db7241c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D"
       }
-    },
-    {
-      "id": "546917",
-      "name": "",
-      "email": "",
-      "password": "",
-      "username": "",
-      "fullName": "",
-      "profile_picture": "",
-      "number_posts": "3",
-      "posts": {
-        "1": "",
-        "2": "",
-        "3": ""
-      },
-      "followers": "",
-      "following": "",
-      "bio": ""
     }
   ]
 }
