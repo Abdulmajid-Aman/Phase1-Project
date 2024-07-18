@@ -1,6 +1,5 @@
 // API URL
-
-const apiUrl = 'https://user-backend-ten.vercel.app/users';
+const apiUrl = 'https://localhost:3000/users';
 
 // UTILITY FUNCTIONS
 function select(id) {
@@ -196,9 +195,9 @@ function deleteAcc(id) {
     method: "DELETE",
   })
     .then(res => res.json())
-    .then((data) => {
-      console.log(data);
-    })
+    .then(data => 
+      console.log(data)
+    )
 }
 
 // Editing account information
@@ -257,9 +256,9 @@ function showEditForm(data) {
         renderAccount(updatedData); 
         // Hide edit form after successful update
         editDiv.style.display = 'none'; 
-      })
-      // Displaying the account information after successful update
+          // Displaying the account information after successful update
       select('#existing-users').style.display = 'block'
+      })
   });
 }
 
