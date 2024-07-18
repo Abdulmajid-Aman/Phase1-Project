@@ -1,5 +1,5 @@
 // API URL
-const apiUrl = 'httpsg://users-backend-xnuo.vercel.app/users';
+const apiUrl = 'https://users-backend-xnuo.vercel.app/users';
 
 // UTILITY FUNCTIONS
 function select(id) {
