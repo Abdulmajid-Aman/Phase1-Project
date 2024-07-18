@@ -1,5 +1,5 @@
 // API URL
-const apiUrl = 'https://localhost:3000/users';
+const apiUrl = 'http://localhost:3000/users';
 
 // UTILITY FUNCTIONS
 function select(id) {
@@ -44,9 +44,9 @@ let form = select('#log-in');
 let usernameInput = select('#username');
 let passwordInput = select('#password');
 
-fetch(apiUrl)
-  .then((res) => res.json())
-  .then((data) => loggingIn(data));
+fetch(`${apiUrl}`)
+  .then(res => res.json())
+  .then(data => loggingIn(data));
 
 function loggingIn(data) {
   addEvent(form, 'submit', (e) => {
@@ -65,7 +65,7 @@ function loggingIn(data) {
 function fetchData(id) {
   fetch(`${apiUrl}/${id}`)
     .then(res => res.json())
-    .then((data) => renderAccount(data))
+    .then(data => renderAccount(data))
 }
 
 // Displaying account
@@ -183,8 +183,8 @@ function addUser(newUserData) {
       'Accept': "application/json"
     },
     body: JSON.stringify(newUserData)
-  }).then((res) => res.json())
-    .then((data) => renderAccount(data));
+  }).then(res => res.json())
+    .then(data => renderAccount(data));
   newUserForm.reset();
   select('#finish-signup').reset();
 }
@@ -252,13 +252,12 @@ function showEditForm(data) {
       body: JSON.stringify(updatedUser)
     })
       .then(res => res.json())
-      .then((updatedData) => {
-        renderAccount(updatedData); 
+      .then(updatedData => 
+        renderAccount(updatedData))
         // Hide edit form after successful update
         editDiv.style.display = 'none'; 
           // Displaying the account information after successful update
       select('#existing-users').style.display = 'block'
       })
-  });
-}
+  }
 
