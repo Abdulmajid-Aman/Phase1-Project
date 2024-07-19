@@ -14,6 +14,12 @@ function addEvent(element, event, callback) {
   return element.addEventListener(event, callback);
 }
 
+addEvent(document, 'DOMContentLoaded', alertMessage)
+
+function alertMessage() {
+  alert('I Submitted using local host because the deployed link using vercel keeps giving me a status error of 500')
+}
+
 // Toggling between the Sign up and Login page
 let log = select('#log');
 let sign = select('#sign');
