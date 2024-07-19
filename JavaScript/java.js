@@ -222,7 +222,7 @@ function showEditForm(data) {
 
   // Prefill form fields with existing data
   select("#new-name").value = data.name;
-  select("#username").value = data.username;
+  select("#new-userrname").value = data.username;
   select("#textarea").value = data.bio;
   select("#new-email").value = data.email;
   select("#new-password").value = data.password;
@@ -241,7 +241,7 @@ function showEditForm(data) {
 
     const updatedUser = {
       name: select("#new-name").value,
-      username: select("#username").value,
+      username: select("#new-userrname").value,
       bio: select("#textarea").value,
       email: select("#new-email").value,
       password: select("#new-password").value,

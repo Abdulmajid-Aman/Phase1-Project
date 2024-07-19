@@ -86,23 +86,6 @@
       }
     },
     {
-      "id": "6",
-      "name": "John Makofi",
-      "email": "john.makofi@example.com",
-      "password": "makofi1234",
-      "username": "johnMakofi",
-      "number_posts": "3",
-      "bio": "Really it has worked",
-      "followers": "109K",
-      "following": "10.6K",
-      "profile_picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "posts": {
-        "1": "https://images.unsplash.com/photo-1721068685384-40cf8de2d860?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D",
-        "2": "https://images.unsplash.com/photo-1721073686084-c06ae051872a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D",
-        "3": "https://plus.unsplash.com/premium_photo-1720798650953-1bb37db7241c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D"
-      }
-    },
-    {
       "id": "7",
       "name": "John Makofi",
       "email": "john.makofi@example.com",
@@ -135,6 +118,40 @@
         "2": "https://images.unsplash.com/photo-1721073686084-c06ae051872a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D",
         "3": "https://plus.unsplash.com/premium_photo-1720798650953-1bb37db7241c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D"
       }
+    },
+    {
+      "id": "539305",
+      "name": "Nimechange mpaka jina",
+      "email": "kumbewewenimkali@sana",
+      "password": "nimebadilishapassword",
+      "username": "achamanenoyako",
+      "profile_picture": "https://images.unsplash.com/photo-1719937206094-8de79c912f40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "number_posts": "3",
+      "posts": {
+        "1": "https://images.unsplash.com/photo-1676498111246-0d4b577122eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1lc3NpfGVufDB8fDB8fHww",
+        "2": "https://images.unsplash.com/photo-1681913297857-0ce269a5810a?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "3": "https://images.unsplash.com/photo-1720543227828-ec5ae842633a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+      },
+      "followers": "1234",
+      "following": "32",
+      "bio": "Wacha si amini inafanya.Inaeza Edit hadi. kali sana"
+    },
+    {
+      "id": "409671",
+      "name": "Abdulmajid",
+      "email": "abdulmajid@aman",
+      "password": "password",
+      "username": "rosalia",
+      "profile_picture": "https://images.unsplash.com/photo-1721036469059-ab07e6bb6508?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "number_posts": "3",
+      "posts": {
+        "1": "https://images.unsplash.com/photo-1721069209981-d7b9081dfa42?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+        "2": "https://images.unsplash.com/photo-1681913297857-0ce269a5810a?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "3": "https://images.unsplash.com/photo-1720543227828-ec5ae842633a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+      },
+      "followers": "12",
+      "following": "123",
+      "bio": "A musician"
     }
   ]
 }
