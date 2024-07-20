@@ -1,5 +1,5 @@
 // API URL
-// https://users-backend-xnuo.vercel.app/users  vercel link
+
 const apiUrl = 'http://localhost:3000/users';
 
 // UTILITY FUNCTIONS
@@ -51,7 +51,7 @@ let form = select('#log-in');
 let usernameInput = select('#username');
 let passwordInput = select('#password');
 
-fetch(`${apiUrl}`)
+fetch(apiUrl)
   .then(res => res.json())
   .then(data => loggingIn(data));
 
@@ -257,14 +257,11 @@ function showEditForm(data) {
         'Accept': 'application/json'
       },
       body: JSON.stringify(updatedUser)
-    })
-      .then(res => res.json())
-      .then(updatedData => 
-        renderAccount(updatedData))
-        // Hide edit form after successful update
-        editDiv.style.display = 'none'; 
-          // Displaying the account information after successful update
-      select('#existing-users').style.display = 'block'
-      })
-  }
-
+    }).then(res => res.json())
+    .then(data => renderAccount(data))
+    // Hide submit editing form
+    editDiv.style.display = 'none'
+    // Displaying the account information
+    select('#existing-users').style.display = 'block'
+  })}
+  

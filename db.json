@@ -152,6 +152,23 @@
       "followers": "12",
       "following": "123",
       "bio": "A musician"
+    },
+    {
+      "id": "91528",
+      "name": "Abdo Arif Abdo",
+      "email": "abdo123@123",
+      "password": "abdi",
+      "username": "abdo",
+      "profile_picture": "https://images.unsplash.com/photo-1719937206094-8de79c912f40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "number_posts": "3",
+      "posts": {
+        "1": "https://images.unsplash.com/photo-1676498111246-0d4b577122eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1lc3NpfGVufDB8fDB8fHww",
+        "2": "https://images.unsplash.com/photo-1681913297857-0ce269a5810a?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "3": "https://images.unsplash.com/photo-1720543227828-ec5ae842633a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+      },
+      "followers": "1234",
+      "following": "2345",
+      "bio": "This is the account of Abdo Arif Abdo. Please do not follow this account. This boy is completly lost his mind !!!"
     }
   ]
 }
